@@ -34,10 +34,6 @@
                     echo 'Deploying to DEV environment...'
                     sh 'echo "Dev deployment done!"'
                 }
-                steps {
-                    echo "In the Dev env adding steps"
-                    sh 'ls'
-                }
             }
 
             stage('Deploy to Production') {
